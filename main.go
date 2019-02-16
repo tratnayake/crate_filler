@@ -22,7 +22,7 @@ var (
 func main() {
 	app := cli.NewApp()
 	app.Name = "crateFiller"
-	app.Copyright = "Copyright 2018 Hugh Brown and licensed under the GPL v3."
+	app.Copyright = "Copyright 2018 Hugh Brown and licensed under the GPL v3. Original Source: https://gitlab.com/saintaardvark/prinbox/blob/master/prinbox.go"
 	app.Usage = "Download mp3s from Youtube and keep current on playlists/channels"
 	app.Flags = []cli.Flag{
 		cli.StringFlag{

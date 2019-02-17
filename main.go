@@ -27,7 +27,7 @@ func main() {
 	app.Flags = []cli.Flag{
 		cli.StringFlag{
 			Name:        "mode,m",
-			Usage:       "What mode should cratefiller operate in? FILE or FETCH",
+			Usage:       "What mode should cratefiller operate in? SONGS,CHANNELS or FETCH",
 			Value:       mode,
 			Destination: &mode,
 		},
